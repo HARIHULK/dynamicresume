@@ -1,0 +1,62 @@
+{
+	"details":{
+		"name":"john",
+		"image":"https://www.kotadiasdental.com/wp-content/uploads/2017/02/unknown.png",
+        "email":"test@gmail.com",
+        "college":"Student at Sree vidyanikethan eng college",
+		"number":"+91-9999999999",
+        "address":"kurnool",
+        "website":"http://naturesup.000webhostapp.com/",
+        "linkedin":"https://www.linkedin.com/in/hari-krishna-biyyala-7848a3166/",
+        "github":"https://github.com/HARIHULK"
+	},
+	"careerobjective":{
+		"info":"To become software developer"
+	},
+	"educationalqualification":[
+		{
+            "institute":"SREE VIDYANIKETHAN ENGINEERING COLLEGE",
+            "degree":"B.Tech",
+            "passoutyear":"2021",
+            "percentage":"90%"
+
+        },
+        {
+            "institute":"NARAYANA JUNIOR COLLEGE",
+            "degree":"Intermediate",
+            "passoutyear":"2017",
+            "percentage":"98.2%"
+
+        },
+        {
+            "institute":"MONTESSORI HIGH SCHOOL",
+            "degree":"SSC",
+            "passoutyear":"2015",
+            "percentage":"98%"
+
+        }
+
+
+	],
+
+	"techinicalskills":[
+		{
+            "title":"programming langauges",
+            "info":["c","c++","java","python"]
+        },
+        {
+            "title":"web-Tech",
+            "info":["html","css","javascript","php","sql","djagno","reactjs"]
+
+        },
+        {
+            "title":"Databases",
+            "info":["oracle","sql","mysql","TinyDB","mongodb"]
+        },
+            {
+            "title":"OPerating system",
+            "info":["windows","linux","ubuntu","Dos"]
+        }
+
+	]
+}

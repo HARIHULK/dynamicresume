@@ -1,9 +1,10 @@
 {
 	"details":{
-		"name":"john",
+		"name":"BIYYALA HARI KRISHNA",
 		"image":"https://www.kotadiasdental.com/wp-content/uploads/2017/02/unknown.png",
         "email":"test@gmail.com",
         "college":"Student at Sree vidyanikethan eng college",
+        "rollno":"17121A0429",
 		"number":"+91-9999999999",
         "address":"kurnool",
         "website":"http://naturesup.000webhostapp.com/",
@@ -11,7 +12,7 @@
         "github":"https://github.com/HARIHULK"
 	},
 	"careerobjective":{
-		"info":"To become software developer"
+		"info":"Looking to obtain the position of Software Developer in a fast-paced tech environment to utilize well honed skills in computer science and extensive experience in developing customized software based on varying client demands."
 	},
 	"educationalqualification":[
 		{
@@ -37,7 +38,8 @@
         }
 
 
-	],
+    ],
+    
 
 	"techinicalskills":[
 		{
@@ -58,5 +60,15 @@
             "info":["windows","linux","ubuntu","Dos"]
         }
 
-	]
+    ],
+    "achievements":[
+        "stood top in coding quiz in college",
+        "got silver medal in nptel python data structure course",
+        "got second prize in Basketball competition"
+    ],
+    "hobbies":[
+        "Reading books",
+        "Playing Basketball",
+        "Listening to Music"
+    ]
 }

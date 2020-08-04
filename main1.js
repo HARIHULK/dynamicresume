@@ -30,6 +30,7 @@ let personalinfo = `  <div class="card card1" >
   <p class="card-text">${persondata.college}</p>
 </div>
 <ul class="list-group list-group-flush">
+<li class="list-group-item">Rollno: ${persondata.rollno}</li>
   <li class="list-group-item"><a href=""></a><img src="https://img.icons8.com/bubbles/50/000000/important-mail.png"/>${persondata.email}</li></a>
   <li class="list-group-item"><a href=""></a><img src="https://img.icons8.com/fluent/48/000000/phone.png"/>${persondata.number}</li></a>
   <li class="list-group-item"><a href="http://naturesup.000webhostapp.com/">${persondata.website}</li></a>
@@ -43,6 +44,16 @@ child1.innerHTML=personalinfo;
 
 
 var child2 = document.querySelector(".child2");
+let carrer =`
+<section class="career">
+              <div class="headings">
+                <h1>Carrer objective</h1>
+            </div>
+              <p>${data.careerobjective.info}</p>
+            </section>
+            <hr>
+`
+child2.innerHTML+=carrer;
 let edu = '';
 data.educationalqualification.forEach(element => {
     edu+= `<tr>
@@ -78,7 +89,7 @@ let techskills = '';
 let sub = '';
 techskills+='<h2>Technical skills</h2>';
 data.techinicalskills.forEach(element => {
-  techskills+= `<h3>${element.title}</h3>
+  techskills+= `<h6>${element.title}</h6>
           <hr/>
           `
           sub+="<ul class='skill'>";
@@ -89,12 +100,26 @@ data.techinicalskills.forEach(element => {
 
   techskills+=sub;
   sub+="</ul><br/>";
-  console.log(techskills)
   sub ='';
   child2.innerHTML+=techskills;
   techskills='';
           
 });
-
+let ach ='';
+ach+='<h2>Achievements</h2><hr>';
+ach+="<ul>"
+data.achievements.forEach(element=>{
+  ach+=`<li>${element}</li>`
+})
+ach+="</ul>";
+child2.innerHTML+=ach;
+let hob ='';
+hob+='<h2>HOBBIES</h2><hr>';
+hob+="<ul>"
+data.hobbies.forEach(element=>{
+  hob+=`<li>${element}</li>`
+})
+hob+="</ul>";
+child2.innerHTML+=hob;
 }
  
